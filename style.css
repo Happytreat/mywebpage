@@ -8,3 +8,16 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+header.landingpage {
+  background-position: center;
+  background-image: url("SimpleLandingPage.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.landingpage h1 {
+  font-size: 2.5rem; 
+  text-align: center;
+}
+
