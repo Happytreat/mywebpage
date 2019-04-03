@@ -1,0 +1,110 @@
+p, li, .description{
+ font-weight: 400;
+ line-height: 1.8rem;
+}
+.sidebar-collapse .navbar-collapse{
+    background: #000;
+}
+.sidebar-collapse .navbar-collapse::before{
+    background: linear-gradient(#b2a37d,#131313 80%);
+}
+
+.bg-primary{
+    background: #b2a37d !important;
+}
+.welcome{
+    margin-top: 1rem;
+}
+
+.welcome h1 {
+    margin-bottom: 1rem;
+}
+
+.welcome h3{
+    margin: 0;
+}
+
+.paddingTop{
+    padding-top: 2rem;
+}
+.navbar-white{
+ background: #f2f4dc !important;
+}
+
+.black{
+    color: #000;
+}
+.gold, .gold-background, .category{
+    color: #b2a37d !important;
+}
+
+.background-black{
+    background: #131313;
+}
+
+.background-black:hover, .background-black:focus{
+    background: #b2a37d !important;
+}
+
+.peopleInfo{
+height: 400px;
+width: 100%;
+background: url('img/SimpleLandingPage.jpg');
+background-repeat: no-repeat;
+background-position: 100%;
+background-size: cover;
+}
+
+.testimony{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peopleInfo h2, .testimony h3{
+    margin: 0;
+}
+section .section-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-inner h2{
+    color: #fff;
+}
+
+.team{
+    padding: 1rem;
+}
+
+.cto{
+    background: #131313;
+
+}
+.team-player .title, .team-player .description{
+    color: #fff;
+}
+
+.footer{
+    background: #131313;
+    color: #fff;
+}
+
+
+.thanks .wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px){
+    .welcome .h1-seo{
+        font-size: 2.2rem;
+    }
+}
